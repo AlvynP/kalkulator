@@ -75,7 +75,7 @@ a {
     color: #fff;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 576px) {
     body {
         min-width: 100%;
         min-height: 0;
