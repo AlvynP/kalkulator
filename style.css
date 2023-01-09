@@ -34,13 +34,23 @@ body {
     width: 60px;
     height: 60px;
     color: #fff;
-    background: #0c2835;
+    /* background: #0c2835; */
+    background-image: radial-gradient(ellipse, #0c171d, #0c2835);
     place-items: center;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 .kalkulator span:active {
-    background: #74ff3b;
+    /* background: #74ff3b; */
+    display: grid;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    /* align-items: center;
+    justify-content: center; */
+    /* text-align: center; */
+    /* position: ; */
     color: #111;
 }
 
