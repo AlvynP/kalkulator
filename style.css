@@ -81,6 +81,47 @@ body {
     text-decoration: none;
 }
 
+.kalkulator .c a {
+    animation: warna 5s linear infinite forwards;
+}
+
+@-webkit-keyframes warna {
+    /* 100% {
+      -webkit-transform: rotate(-360deg);
+              transform: rotate(-360deg);
+    } */
+    10% {
+        color: pink;
+    }
+    20% {
+        color: yellow;
+    }
+    30% {
+        color: darkblue;
+    }
+    40% {
+        color: blueviolet;
+    }
+    50% {
+        color: burlywood;
+    }
+    60% {
+        color: brown;
+    }
+    70% {
+        color: yellowgreen;
+    }
+    80% {
+        color: royalblue;
+    }
+    90% {
+        color: peru;
+    }
+    100% {
+        color: lightgreen;
+    }
+}
+
 a {
     text-decoration: none;
     color: #fff;
